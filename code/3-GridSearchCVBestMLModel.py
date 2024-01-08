@@ -47,9 +47,9 @@ def train(model_name,inds_path, model_save_path, train_real_pred__save_path,test
 
         RF_model = RandomForestRegressor()
         RF_grid = {
-            'n_estimators': [100, 200,300,400],
-            'max_depth': [20, 30, 40, 50],
-            'max_features': [2, 3, 4, 5, 6]
+            'n_estimators': [100, 200,300,400],#
+            'max_depth': [20, 30, 40, 50], #
+            'max_features': [2, 3, 4, 5, 6] #
         }
         ML_model.append(RF_model)
         param_grids.append(RF_grid)
@@ -155,7 +155,7 @@ def train(model_name,inds_path, model_save_path, train_real_pred__save_path,test
     print(model_name+"finish!!!")
 
 
-ML = ['SVR']
+ML = ['RF']
 data_path = "../datasets/ionic_conductivity.csv"
 Xs_Path = "../datasets/Xs.pt"
 inds_path = '../datasets/indx_id/'

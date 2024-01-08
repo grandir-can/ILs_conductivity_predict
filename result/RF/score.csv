@@ -1,5 +1,3 @@
-,train_Score,test_Score
-R2,0.9974+-0.0003,0.9854+-0.0016
-MSE,0.007+-0.0007,0.0404+-0.0033
-RMSE,0.0836+-0.0044,0.2007+-0.0081
-MAE,0.0409+-0.0016,0.0987+-0.0022
+version https://git-lfs.github.com/spec/v1
+oid sha256:57e3e5caf04ce2494eea908b36fc12b89dd6a707747c0eaec4e136b04731d59b
+size 162
