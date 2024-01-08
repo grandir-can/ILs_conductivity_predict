@@ -92,7 +92,7 @@ for j in range(len(methods)):
     axs[2, j].text(-4.8, 52, s=title_error[j], fontsize=14, fontweight='bold')
 
 plt.tight_layout()
-plt.savefig('../picture/real_pred_plot.png', format='png', dpi = 300)
+plt.savefig('../picture/real_pred_plot.tif', format='tif', dpi = 600)
 plt.show()
 
 plt.close()

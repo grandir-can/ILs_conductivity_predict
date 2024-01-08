@@ -65,10 +65,9 @@ def train(model_name,inds_path, model_save_path, train_real_pred__save_path,test
 
         SVR_model = SVR()
         SVR_grid = {
-            'C':[1000000],
-            'tol':[0.0001]
-
-
+            'C':[0.1,1,100,500],
+            'epsilon': [0.0001,0.0005,0.001,0.005],
+            'gamma': [0.0001,0.001,0.01,1,2,3,4,5]
         }
 
         # SVR_model = SVR(C=3000,
