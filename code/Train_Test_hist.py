@@ -49,5 +49,5 @@ for i in range(5):
 ax[0][0].legend(['Training data', 'Test data'], bbox_to_anchor=(0.5,1), frameon=False)
 ax[0][1].legend(['Training data', 'Test data'],bbox_to_anchor=(0.5,1), frameon=False)
 fig.tight_layout()
-plt.savefig("../picture/con_histogram_train_test.tif",format='tif',dpi = 600,bbox_inches = "tight")
+plt.savefig("../picture/con_histogram_train_test.tif",format='tif',bbox_inches = "tight")
 plt.show()
